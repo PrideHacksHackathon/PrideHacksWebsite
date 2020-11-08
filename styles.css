@@ -1,0 +1,78 @@
+:root {
+  --foreground-color: #FFF;
+  --foreground-color-alt: #ADD8E6;
+  --background-color: #000;
+  --accent-color:  #FF5733; 
+}
+
+#card img {
+	max-width: 100%;
+	height: auto;
+}
+#card {
+	//max-width: 300px;
+}
+
+html {
+	height: 100%;
+	background-size: cover;
+	background-image: url("pcb.webp");
+	background-repeat: no-repeat;
+}
+
+body {
+	/* font-family: Aileron, Helvetica, Arial; */
+	font-family: "Consolas", monospace;
+	color: var(--foreground-color);
+}
+
+h1, h2, p, header, #card {
+	padding: 0.5rem;
+	border-radius: 2px;
+	background: var(--background-color);
+	display: inline-block;
+	margin: 0 0 10px 0;
+	box-shadow: 10px 1px 14px -1px rgba(0,0,0,0.75);
+}
+
+p {
+
+}
+
+#card-container {
+	display: block;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	padding: 0.5rem;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+	font-weight: 900;
+}
+
+a {
+	color: var(--foreground-color-alt);
+}
+
+strong {
+	color: var(--accent-color);
+}
+.container {
+	max-width: 600px;
+	margin: 20px 20px 40px 20px;
+	padding: 20px;
+	position: absolute;
+    bottom: 1;
+}
